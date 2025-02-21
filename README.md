@@ -17,3 +17,11 @@ Link Check Code Details:
 6. Requires POST,GET,PULL - This means that the Link URL is pointing not to a web page, bubt to a server or API that is not meant to be accessed via a web browser.  This needs to be checked manually using the appropriate tools.
 7. Invalid: Fix Link - This is an invalid request and means that the Link URL is most likely a bad link.
 8. Internal Document Link - This means that the link is to an internal chapter, section, footnote, or something of that nature, not an actual webpage.
+
+
+## Getting Started
+
+### Install clasp globally and login
+If you have already done this on this machine, you can skip this step.
+<pre><code>npm install @google/clasp -g</code></pre>
+<pre><code>clasp login</code></pre>
